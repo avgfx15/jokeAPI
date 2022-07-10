@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+}
+
+.row {
+  margin: 1rem;
+}
+.hText {
+  font-size: 2.3rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 1rem;
+}
+.card {
+  max-width: 70%;
+  margin: auto;
+  max-height: 60%;
+  background-color: beige;
+  border-radius: 1rem;
+}
+.cardTitle {
+  font-size: 1.6rem;
+  color: rgb(5, 72, 160);
+  margin: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid rgb(209, 209, 209);
+}
+.cardBody {
+  font-size: 1.3rem;
+  color: blueviolet;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 150px;
+  padding: 1rem;
+  border-bottom: 1px solid rgb(209, 209, 209);
+  line-height: 150px;
+}
+.cardBottom {
+  padding: 1rem;
+}
+
+#jokeBtn {
+  padding: 1rem;
+  font-size: 1.3rem;
+  border-radius: 1rem;
+  border: 0;
+  background-color: rgb(9, 115, 214);
+  color: white;
+}
